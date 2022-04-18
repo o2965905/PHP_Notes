@@ -34,7 +34,7 @@ echo "</tr>";
 }
 echo "</table>";
 ?>
-
+<hr>
 <h3>練習2</h3>
 <?php
 echo "<table>";

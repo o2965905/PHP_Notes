@@ -1,6 +1,6 @@
 <h2>while/do...while</h2>
 
-<h3>while</h3>
+<h3> while </h3>
 <h4>假設$i=1</h4>
 <?php
 /*先判斷條件是否成立,再執行*/
@@ -20,7 +20,7 @@ while($i<10){
 }
 ?>
 
-<h3>do...while</h3>
+<h3> do...while </h3>
 <h4>假設$i=1</h4>
 <?php
 /*先執行一遍,再判斷條件*/ 

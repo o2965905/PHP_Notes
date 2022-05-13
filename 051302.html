@@ -1,0 +1,62 @@
+<!--GET呈現-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 50px;
+        }
+        h1{
+            font-family: Papyrus;
+        }
+        .section{
+            background-color: rgb(248, 249, 249);
+            box-shadow: 0px 5px 8px rgba(0,0,0,0.4);
+            border-radius: 8px;
+        }
+        form{
+            margin: 5px;
+            padding: 15px;
+            background-color:lightyellow;
+        }
+        .box{
+            margin: 15px auto;
+            font-family: Papyrus;
+            color: rgb(29, 98, 167);
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1>BMI</h1>
+    <div class="section">
+    <form action="051302.php" method="get">
+        <div class="box">
+            <label for="">身高(cm)</label><input type="number" name="height" id="">
+        </div>
+        <div class="box">
+            <label for="">體重(kg)</label><input type="number" name="weight" id="">
+        </div>
+        <div class="box">
+            <input type="submit" value="計算BMI">
+        </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
